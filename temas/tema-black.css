@@ -1,0 +1,17 @@
+/* tema 2 black */
+:root{
+    --color-fondo: rgb(0, 0, 0);
+    --color-fondo-body: rgb(255, 255, 255);
+    --color-fondo-items: rgb(161, 161, 161);
+
+    --color-letras: rgb(255, 255, 255);
+    --color-letras-items: rgb(0, 0, 0);
+
+    --bg-fondo-hover: rgb(255, 255, 255);
+
+    --bg-fondo-btn: rgb(187, 187, 187);
+    --color-letras-btn: rgb(255, 251, 251);
+
+    --color-letras-btn-hover: rgb(0, 0, 0);
+    --bg-fondo-btn-hover: rgb(255, 251, 251);
+}
