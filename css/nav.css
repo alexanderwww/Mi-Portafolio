@@ -41,6 +41,18 @@
 
 @media screen and (max-width:850px) {
     #nav-container{
-        width: 90%;
+        /* width: 90%; */
+        margin: 0;
+        flex-direction: column;
+        /* background-color: violet; */
     }
+    #nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav-container-info{
+        margin: 0;
+    }
+
 }

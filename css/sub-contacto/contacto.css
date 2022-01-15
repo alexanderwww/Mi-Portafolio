@@ -1,0 +1,76 @@
+#body{
+    font-family: var(--fuente);
+    margin: 0;
+    font-size: 1.4rem;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var( --body-color);
+}
+
+#contacto{
+    background-color: var(--container-color);
+    border-radius: 15px;
+    border: 3px solid var(--border-color);
+    max-width: 500px;
+    max-height: 600px;
+    color: var(--light-text-color);
+
+    padding: 120px 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.input-texto{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+
+    outline: none;
+
+}
+
+.input-btn{
+    font-family: var(--fuente);
+    font-size: 1.3rem;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    background-color: var(--main-color);
+}
+
+h3{
+    font-size: 2rem;
+    margin: 0 0 20px 0px;
+    color: var(--title-color);
+}
+
+.input-btn:hover{
+    background-color: var(--text-color);
+}
+
+@media screen and (max-width:860px) {
+    #body{
+        font-size: 1rem;
+    }
+    #contacto{
+        background: none;
+        border: none;
+    }
+}
+

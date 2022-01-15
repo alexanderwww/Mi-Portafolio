@@ -4,7 +4,7 @@ const menu=document.getElementById('menu-links')
 let vuelta=true
 
 
-btn.addEventListener('click',(btn)=>{
+btn.addEventListener('click',()=>{
     if(vuelta){
         menu.classList.replace('menu-ocultar','menu-mostrar')
         vuelta=false

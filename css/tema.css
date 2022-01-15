@@ -1,0 +1,17 @@
+/* https://ed.team/blog/como-crear-un-tema-light-y-dark-para-tu-web*/
+
+:root {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'; */
+    --fuente: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    --main-color:#52A5E0;
+    --title-color:#EFF3F5;
+    --text-color:#C8CDD0;
+
+    --body-color:#192229;
+    
+    --light-text-color:#A0A7AC;
+    --border-color:#2A3B47;
+    
+    --container-color :#212E36;
+}
+
