@@ -1,9 +1,12 @@
-
-
-:root{
-    --colo-fondo:rgb(42, 42, 42);
-    --color-letras:#fff;
-    --colo-subFondo:rgb(105, 105, 105);
+:root {
+    --main-color:#52A5E0;
+    --title-color:#EFF3F5;
+    --text-color:#C8CDD0;
+    --body-color:#192229;
+    
+    --light-text-color:#A0A7AC;
+    --border-color:#2A3B47;
+    --container-color :#212E36;
 }
 
 
@@ -14,14 +17,16 @@ body{
 }
 
 #menu{
-    background-color: var(--colo-fondo);
-    color: var(--color-letras);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    font-size: 1.6rem;
     width: 100vw;
     position: fixed;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 3px 1px var(--border-color);
 }
 
 #menu-logo{
@@ -34,12 +39,12 @@ body{
 #menu-links{
     display: flex;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 30px;
     margin: 0%;
 }
 
 #menu-links li a{
-    color: var(--color-letras);
+    color: var(--title-color);
     text-decoration: none;
     padding: 0 10px;
 }
@@ -70,9 +75,10 @@ body{
         top: -100vh;
     }
     .menu-mostrar{
-        background-color: var(--colo-subFondo);
+        background-color: var(--body-color);
         top: 10vh;
     }
+    
 
     #menu-links li{
         margin-top: 30px
